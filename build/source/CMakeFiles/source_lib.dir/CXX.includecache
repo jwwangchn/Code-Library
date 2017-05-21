@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/Documents/jwwangchn/Code-Library/source/GA.cpp
+GA.h
+/home/ubuntu/Documents/jwwangchn/Code-Library/source/GA.h
+
+/home/ubuntu/Documents/jwwangchn/Code-Library/source/GA.h
+iostream
+-
+cmath
+-
+vector
+-
+algorithm
+-
+functional
+-
+numeric
+-
+

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././source/GA.h
+iostream
+-
+cmath
+-
+vector
+-
+algorithm
+-
+functional
+-
+numeric
+-
+
+/home/ubuntu/Documents/jwwangchn/Code-Library/main.cpp
+iostream
+-
+time.h
+-
+cmath
+-
+vector
+-
+algorithm
+-
+functional
+-
+numeric
+-
+GA.h
+/home/ubuntu/Documents/jwwangchn/Code-Library/GA.h
+
