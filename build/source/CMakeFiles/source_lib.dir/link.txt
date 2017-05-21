@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsource_lib.a  CMakeFiles/source_lib.dir/GA.cpp.o
+/usr/bin/ranlib libsource_lib.a

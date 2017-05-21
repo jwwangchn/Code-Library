@@ -1,0 +1,1 @@
+/usr/bin/c++    -O3 -Wall -std=c++11    CMakeFiles/code-library.dir/main.cpp.o  -o code-library -rdynamic source/libsource_lib.a 
