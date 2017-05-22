@@ -16,6 +16,8 @@ typedef struct
 	int No;
 } node;
 
+
+//TODO: 将下列函数封装成 GA 类
 double sum(vector<double> RFun, int i, int j);
 vector<double> ranking(vector<int> ObjV);
 vector<double> cumsum(vector<double> FitnV);

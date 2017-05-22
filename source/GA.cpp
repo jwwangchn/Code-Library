@@ -2,6 +2,9 @@
 
 using namespace std;
 
+//TODO: 对每个函数进行函数说明
+//TODO: 输入参数更换成模板
+
 /*按照降序排列*/
 bool operator<(const node &a, const node &b)
 {
