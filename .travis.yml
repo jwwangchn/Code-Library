@@ -5,7 +5,7 @@ compiler:
 
 install: 
       - make
-      -  cmake
+      - cmake
 
 brfore_script:
       - mkdir
