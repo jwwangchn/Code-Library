@@ -1,9 +1,17 @@
 language: cpp
 
-compiler: gcc
+compiler: 
+      - gcc
 
 install: 
       - make
+      -  cmake
+
+brfore_script:
+      - mkdir
+      - cd build
+      - cmake ..
 
 script: 
-      - "./build/code-library"
+      - make
+      - ./code-library
