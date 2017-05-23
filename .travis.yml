@@ -2,6 +2,8 @@ language: cpp
 
 compiler: gcc
 
-install: make get-deps
+install: 
+      - make
 
-script: scons
+script: 
+      - "./build/code-library"
