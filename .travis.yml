@@ -35,7 +35,7 @@ install:
     - lcov --version
     - g++ --version
 
-script: ./run_build.sh
+script: sh run_build.sh
 
 # 代码覆盖率
 
